@@ -3,11 +3,11 @@ package primitivedatatypes;
 public class dataTypes {
 
 
-        static byte b ;
+        static byte K ;
         static short s ;
         static int i;
         static long l ;
-
+        static int t = 5;
 
         static float f ;
         static double d;
@@ -33,12 +33,15 @@ public class dataTypes {
 
             //float myFloat = 25.67;
             double myDouble = 30500.46;
+            if (t == 5) {
 
 
-            System.out.println("default value of byte is "+ b);
-            System.out.println("default value of short is "+ s);
-            System.out.println("default value of int is "+ i);
-            System.out.println("default value of long is "+ l);
+                System.out.println("default value of byte is " + K);
+                System.out.println("default value of short is " + s);
+            }
+                System.out.println("default value of int is " + i);
+                System.out.println("default value of long is " + l);
+            System.out.println("default value of int is "+ t);
             System.out.println("default value of float is "+ f);
             System.out.println("default value of double is "+ d);
             System.out.println("default value of char is "+ c);
